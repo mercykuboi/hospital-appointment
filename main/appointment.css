@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*login.php*/
+body {
+    height:50 ;
+}
+
+#frm {
+    border: solid grey 1px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 50px;
+    color: #0e76a8;
+}
+
+#btn_2020 {
+    color: #FFF;
+    background: white;
+    padding: 5px;
+    margin-bottom: 69%;
+
+}
+
+
+
+
+/*Navbar*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0.0, 0.0, 0.0, 0.5);
+    top: 0;
+    position: sticky;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0.0, 0.0, 0.0, 0.5);
+    top: 0;
+    position: sticky;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li {
+    font-family: century;
+    font-size: 1.1 rem;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5 ease;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0.0, 0.0, 0.0, 10px white);
+
+
+}
+
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    padding: 40px 30px;
+    align-items: center;
+}
+
+.container .form_input {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.form_input {
+    font-family: century;
+    font-size: 3 rem;
+    text-align: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.headings {
+    font-family: century;
+    font-size: 3 rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: #ca4334;
+}
+
+.form_input {
+    font-family: century;
+    font-size: 3 rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 660px;
+    align-items: center;
+    color: rgb(255, 0, 170);
+    justify-content: center;
+    background: url('Screenshot\ \(137\).png')no-repeat center center/cover;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 30%;
+    right: 10%;
+    position: absolute;
+
+}
+
+.headings {
+    font-family: century;
+    font-size: 3 rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: #0b5c81;
+}
+
+.btn {
+    outline: none;
+    background-color: transparent;
+    padding: 10px 40px;
+    transition: .6 ease;
+    border: ipx solid white;
+}
+
+.btn:hover {
+    color: purple;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15 white;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+
+}
+
+
+
+
+.body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    padding: 40px 30px;
+    align-items: center;
+}
+
+
+
+
+#about {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: none;
+    flex-wrap: wrap;
+    background-color: wheat;
+    height: 660px;;
+}
+
+.button {
+    outline: none;
+    background-color: purple;
+    padding: 15px 40px;
+    transition: .3 ease;
+    border: 10px solid white
+}
+
+.button:hover {
+    color: purple;
+    box-shadow: 0 0 5px white, 0 0 09px white, 0 0 09 white;
+    cursor: pointer;
+    background-color: purple;
+    font-weight: bolder;
+}
+
+
+#pic {
+    display: flex;
+
+}
+
+#pic img {
+    width: 675px;
+    height: 400px;
+    z-index: 1;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: #0b5c81;
+}
+#intro p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: black;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0.0, 0.0, 0.0, 0.9);
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img {
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: purple;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 350px;
+    height: 450px;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8 ease;
+    border: 1px solid black;
+
+}
+
+.box:hover {
+    color: white;
+    box-shadow: 0 0 20px rgb(255, 45, 45);
+    border: none;
+    background-position: left bottom;
+}
+
+.box img {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.mercy {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5px;
+    text-align: justify;
+    padding: 10px 10px;
+    background: linear-gradient(to top, rgb(184, 169, 169) 100%, white 100%);
+    background-size: 50% 100%;
+    transition: .8 ease;
+    border: 0.5px solid white;
+    opacity: none;
+}
+
+.mercybutton {
+    outline: none;
+    background-color: purple;
+    padding: 15px 40px;
+    transition: .3 ease;
+    border: 10px solid black
+}
+
+.mercybutton:hover {
+    color: purple;
+    box-shadow: 0 0 5px white, 0 0 09px white, 0 0 09 white;
+    cursor: pointer;
+    background-color: purple;
+    font-weight: bolder;
+}
+#appointment {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: gray;
+    height: 600px;
+}
+.button_appointment{
+outline: none;
+    background-color: brown;
+    outline: none;
+    transition: .3 ease;
+    padding: 12px 30px;
+    margin-top: 30px;
+}
+.button_appointment {
+    color: purple;
+    box-shadow: 0 0 5px white, 0 0 09px white, 0 0 09 white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#contactus {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: gray;
+    height: 600px;
+}
+
+
+
+
+ 
+
+
+ 
+  
